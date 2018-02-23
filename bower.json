@@ -3,11 +3,14 @@
   "description": "A photo gallery element based on Polymer",
   "main": "photo-gallery.html",
   "dependencies": {
-    "polymer": "^2.0.0",
-    "animejs": "^2.2.0"
+    "polymer": "Polymer/polymer#^1.7.0",
+    "animejs": "juliangarnier/anime#^2.2.0",
+    "shadycss": "webcomponents/shadycss#^1.1.1"
   },
   "devDependencies": {
-    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
   }
 }
